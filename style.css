@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*lines 6-24 creating classes to impose onto certain objects*/
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align:right;
+}
+
+.text-left{
+  text-align:left;
+}
+.small{
+  font-size: 18px;
+}
+.large{
+  font-size: 50px;
+}
+ .dark-back{
+   background-color: #1B2432;
+   color: #fff
+ }
+
+
+/*link color scheme and format*/
+a:link{color: #93A8AC}
+a:visited{color: #DFF3E4}
+a:hover{color: #DDDBF1}
+a:active{color:#77966D}
+a{
+  font-size: 30px;
+  margin:12px;
+  padding: 50px;
+}
+
+/*margin around each article and padding on the bottom*/
+article{
+  margin: 20px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+/*set font and color to be the same across header, h1, h2, and h3*/
+header, h1, h2, h3{
+  font-family: Didot, Arial; 
+  color:#1B2432;
+}
+
+/*set different font sizes for these elements*/
+
+header{
+  font-size: 50px;
+}
+
+h2{
+  font-size:35px;
+}
+h3{
+  font-size: 30px;
+}
+
+
+main{
+  font-family: Courier, serif;
+}
+
+
